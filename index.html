@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Survey</title>
+    <link type="text/css" rel="stylesheet" href="stylesheet.css">
+  </head>
+  <body>
+    <div class="col1"></div>
+    <div class="survey">
+      <form action="submit.php">
+        <p>What's your name, little human?</p>
+        <input type="text" name="username">
+        <br>
+        <p>What is your gender?</p>
+        <lable>Male?
+          <input type="radio" name="gender" value="male">
+        </lable>
+        <lable>Female?
+          <input type="radio" name="gender" value="female">
+        </lable>
+        <lable>Fluid?
+          <input type="radio" name="gender" value="fluid">
+        </lable>
+        <br>
+        <p>What is your password?<br>
+          <p class="small">(It better not be 12345...cause that's the password for my luggage.)</p></p>
+        <input type="password" name="pwd">
+        <p>Which foods would you liked served in your intergalactic prison cell...er...I mean, your comfy room?</p>
+        <label>Tacos
+          <input type="checkbox" name="tacos" value="on">
+        </label>
+        <label>Fried Rice
+          <input type="checkbox" name="fried_rice" value="on">
+        </label>
+        <label>Takoyaki
+          <input type="checkbox" name="takoyaki" value="on">
+        </label><br>
+        <label>Okonomiyaki
+          <input type="checkbox" name="okonomiyaki" value="on">
+        </label>
+        <label>Tator Tots
+          <input type="checkbox" name="tatortots" value="on">
+        </label>
+        <label>Mangos
+          <input type="checkbox" name="mangos" value="on">
+        </label>
+        <p>What primitive computer system do you use?</p>
+        <select name="computer">
+          <option value="windows">Windows</option>
+          <option value="osx">OSX</option>
+          <option value="android">Nexus 6</option>
+          <option value="linux">Linux</option>
+        </select>
+        <p>Do you have any comments or questions?</p>
+        <p class="small">We will neither care nor listen to either of these.</p>
+        <textarea name="comment"></textarea>
+        <br>
+      </form>
+    </div>
+    <div class="col1"></div>
+  </body>
+</html>

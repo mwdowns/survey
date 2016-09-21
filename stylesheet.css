@@ -1,0 +1,16 @@
+.col1 {
+  width: 33%;
+  height: 1px;
+  float: left;
+}
+
+.survey {
+  background-color: pink;
+  width: 33%;
+  float: left;
+  text-align: center;
+}
+
+.small {
+  font-size: .3em;
+}
